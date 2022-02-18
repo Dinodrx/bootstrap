@@ -1,0 +1,34 @@
+body {
+    background-image: url(images/fondo.png);
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size: cover; 
+    
+}
+
+footer{
+    display: grid;
+    grid-template-columns: 5% 5% 5% 85%;
+    grid-column-gap: 10px;
+}
+.link-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logos-redes {
+    width: 50%;
+}
+
+.parrafo-footer {
+    color: silver;
+    display: flex;
+    justify-content: center;
+    font-size: 50%;
+}
+
+@media screen and (min-width:900px) {
+    .card {
+        width: 45%; 
+}
+}
