@@ -31,4 +31,8 @@ footer{
     .card {
         width: 45%; 
 }
+    .list-group {
+        width: 40%;
+        margin-bottom:30%;
+    }
 }
