@@ -36,3 +36,12 @@ footer{
         margin-bottom:30%;
     }
 }
+h1 {
+    color: white; 
+    display: flex;
+    justify-content: center;
+}
+
+iframe {
+    width: 100%;
+}
